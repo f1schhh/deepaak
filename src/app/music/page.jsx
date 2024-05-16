@@ -304,7 +304,7 @@ export default function Home() {
                 src="/img/music/holygod.png"
               />
               <div className="flex flex-col gap-1">
-                <h3 className="animate-in text-2xl font-bold tracking-tight">HOLY "GOD" - Single</h3>
+                <h3 className="animate-in text-2xl font-bold tracking-tight">HOLY &quot;GOD&quot; - Single</h3>
                 <p className="max-w-lg text-zinc-400">2020</p>
                 <ul className="flex flex-row gap-6 mt-2">
                   <li>

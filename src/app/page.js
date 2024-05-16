@@ -87,11 +87,12 @@ export default function Home() {
               </div>
               <div className="flex flex-col gap-1">
                 <h1 className="animate-in text-3xl font-bold tracking-tight">Get in Touch!</h1>
-                <p className="max-w-lg text-zinc-400">Let's connect and create magic together!</p>
+                <p className="max-w-lg text-zinc-400">Let&apos;s connect and create magic together!</p>
                 <p className="mt-3">
-                  Dive into the world of deepaak, the musical persona of Martin Forsell, a versatile artist hailing from Sweden.</p>
-                <p>With a fusion of dreamy indie-pop, nostalgic 80s synthesizers, and pulsating rhythms, deepaak's music promises to captivate your senses.</p>
-                <p>Ready to embark on a sonic journey? Reach out and let's make music magic together!</p>
+                  Dive into the world of deepaak, the musical persona of Martin Forsell, a versatile artist hailing from Sweden.
+                </p>
+                <p>With a fusion of dreamy indie-pop, nostalgic 80s synthesizers, and pulsating rhythms, deepaak&apos;s music promises to captivate your senses.</p>
+                <p>Ready to embark on a sonic journey? Reach out and let&apos;s make music magic together!</p>
 
                 <ul className="flex flex-row gap-6 mt-5">
                   <li>
