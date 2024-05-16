@@ -20,7 +20,7 @@ export default function Home() {
         transition={{ duration: 1, ease: "easeIn" }} className="flex w-full items-center justify-center">
         <div className="flex flex-col gap-6 md:gap-12 w-full px-6 mt-12 justify-start max-w-[1024px]">
           <div className="flex flex-col gap-2">
-            <h1 className="animate-in text-3xl font-bold tracking-tight">Some of music</h1>
+            <h1 className="animate-in text-3xl font-bold tracking-tight">My Music</h1>
             <p className="max-w-lg text-zinc-400">Discover some of my latest songs</p>
           </div>
           <ul className="grid grid-cols-1 gap-12 md:grid-cols-2">
