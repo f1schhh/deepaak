@@ -3,6 +3,7 @@ import React from "react";
 import { motion } from 'framer-motion';
 import { Image } from "@nextui-org/react";
 import { Tooltip } from "@nextui-org/react";
+import Shows from '../components/Shows'
 
 // Icons
 import { FaSpotify } from "react-icons/fa";
@@ -21,10 +22,10 @@ export default function Home() {
       <motion.div
         initial={{ opacity: 0, y: 100 }} // Initial position and opacity
         animate={{ opacity: 1, y: 0 }} // Target position and opacity
-        transition={{ duration: 1, ease: "easeIn" }} className="flex w-full items-center justify-center">
+        transition={{ duration: 0.5, ease: "easeIn" }} className="flex w-full items-center justify-center">
         <div className="flex flex-col gap-16 md:gap-24 w-full px-6 mt-12 justify-start max-w-[1024px]">
           <div className="flex flex-col gap-8 ">
-            <div className="flex flex-row justify-between md:gap-12 lg:gap-24">
+            <div className="flex flex-row justify-between gap-1 md:gap-12 lg:gap-24">
               <div className="flex flex-col gap-1">
                 <h1 className="animate-in text-3xl font-bold tracking-tight">deepaak</h1>
                 <p className="max-w-lg text-zinc-400">Martin Forsell</p>
@@ -33,8 +34,6 @@ export default function Home() {
                 <p>Martin crafts a seamless meld of dreamy indie-pop filled with 80s synthesizers and driving rhythms.</p>
                 <p>A life filled of shadows and hardships have crystalised into a unique, dark, atmospheric and yet uplifting sound.</p>
                 <p>Martin has created a language with few words that is easy to understand, yet open to deep dives.</p>
-
-
                 <ul className="flex flex-row gap-6 mt-5">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
@@ -66,13 +65,11 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-              <div>
-                <Image
-                  width={500}
-                  alt="deepaak sings"
-                  src="/img/deepaak_front.webp"
-                />
-              </div>
+              <Image
+                width={500}
+                alt="deepaak sings"
+                src="/img/deepaak_front.webp"
+              />
             </div>
           </div>
 
@@ -128,7 +125,7 @@ export default function Home() {
 
             </div>
           </div>
-        </div >
+        </div>
       </motion.div >
     </main >
   );

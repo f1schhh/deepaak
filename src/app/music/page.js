@@ -33,7 +33,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">Cut me out - Single</h3>
                 <p className="max-w-lg text-zinc-400">2024</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -72,7 +72,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">Dopamine - Single</h3>
                 <p className="max-w-lg text-zinc-400">2023</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -111,7 +111,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">Empire - Single</h3>
                 <p className="max-w-lg text-zinc-400">2023</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">River - Single</h3>
                 <p className="max-w-lg text-zinc-400">2022</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -189,7 +189,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">Baby I - Single</h3>
                 <p className="max-w-lg text-zinc-400">2022</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -228,7 +228,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">CAIM - Single</h3>
                 <p className="max-w-lg text-zinc-400">2021</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -267,7 +267,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">Her - Single</h3>
                 <p className="max-w-lg text-zinc-400">2021</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>
@@ -306,7 +306,7 @@ export default function Home() {
               <div className="flex flex-col gap-1">
                 <h3 className="animate-in text-2xl font-bold tracking-tight">HOLY &quot;GOD&quot; - Single</h3>
                 <p className="max-w-lg text-zinc-400">2020</p>
-                <ul className="flex flex-row gap-6 mt-2">
+                <ul className="flex flex-row gap-4 mt-2">
                   <li>
                     <Tooltip showArrow={true} content="Spotify">
                       <a href="" className="text-2xl"> <FaSpotify /> </a>

@@ -5,17 +5,15 @@ import React from "react";
 import { usePathname } from 'next/navigation'
 import { Button, Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Link } from "@nextui-org/react";
 
-import ThemeSelect from '../components/ThemeSelect'
+import ThemeSelect from './ThemeSelect'
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const router = useRouter();
   const pathname = usePathname();
 
   const menuItems = [
     { label: "Start", path: "/" },
     { label: "Music", path: "/music" },
-    { label: "Merch", path: "/merch" },
   ]
 
   const isStartPage = pathname === "/";
@@ -61,17 +59,9 @@ export default function App() {
             Music
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Merch
-          </Link>
-        </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
         <NavbarItem>
-          {/* <Button as={Link} color="primary" href="#" variant="flat">
-            GET MY MERCH NOW
-          </Button> */}
           <ThemeSelect />
         </NavbarItem>
       </NavbarContent>
