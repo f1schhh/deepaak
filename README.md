@@ -1,1 +1,1 @@
-Simple layout website for the artist deepaak
+Simple website for the artist deepaak
